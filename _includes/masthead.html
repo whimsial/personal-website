@@ -9,7 +9,9 @@
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
 </p>
-
+<div class="f4 mb-6">
+  <a href="/cv">Recent version of my CV</a>
+</div>
 {% if include.metadata %}
   <div class="f4 mb-6">
     {% if user.name %}
@@ -32,6 +34,14 @@
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
         {{ user.location }}
+      </div>
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon briefcase height:40 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
+        <p>Research Associate at the University of Edinburgh, Edinburgh, UK</p>
+      </div>
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon mortar-board height:60 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
+        <p>PhD in Applied/Computational Mechanics at the University of Southampton, Southampton, UK</p>
       </div>
     {% endif %}
     {% if site.social_media %}

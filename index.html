@@ -1,3 +1,23 @@
 ---
 layout: home
 ---
+
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>About me</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">A bite-size description.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+<!--    <div class="col-lg-8 col-md-12 col-lg-6 col-xl-4 mb-3">-->
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
+        <ul>
+            <li>
+                I am leading the ongoing development of the <a href="https://pm2.phs.ed.ac.uk/genoscores/">GENOSCORES project</a> -
+                a web platform and software tools for the calculation of genotypic predictors (scores) of binary and quantitative
+                phenotypes. I am working on deploying GENOSCORES as a publicly available research tool.
+            </li>
+            <li>
+                I hold PhD in Computational/Applied mechanics. My PhD research was focused on a multidisciplinary area on the
+                intersection between computer science, data modelling and analysis, computational/applied mechanics and
+                biology of the cell.
+            </li>
+        </ul>
+    </div>
+</div>

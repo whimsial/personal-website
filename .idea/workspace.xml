@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f68da92-1b23-479e-83b0-f2ca985f6d95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/interests.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/interests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/masthead.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/masthead.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/topic-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/topic-card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1iBxdPMFIdvKIdmuHgeY0Gzkcw0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f68da92-1b23-479e-83b0-f2ca985f6d95" name="Default Changelist" comment="" />
+      <created>1601394873674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601394873674</updated>
+      <workItem from="1601394874972" duration="6647000" />
+    </task>
+    <task id="LOCAL-00001" summary="Compile personal webpage locally.">
+      <created>1601397269065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601397269065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Compile personal webpage locally." />
+    <option name="LAST_COMMIT_MESSAGE" value="Compile personal webpage locally." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="214" y="23" key="CommitChangelistDialog2" timestamp="1601397268776">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state x="214" y="23" key="CommitChangelistDialog2/0.23.1280.712@0.23.1280.712" timestamp="1601397268776" />
+    <state x="340" y="134" width="600" height="490" key="find.popup" timestamp="1601398274013">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state x="340" y="134" width="600" height="490" key="find.popup/0.23.1280.712@0.23.1280.712" timestamp="1601398274013" />
+  </component>
+</project>
