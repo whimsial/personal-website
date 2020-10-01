@@ -1,8 +1,9 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Tools</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">A non-extensive list of languages/tools I use in development.</p>
-<div class="d-flex flex-wrap gutter-condensed mb-4">
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Languages/frameworks</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">A non-extensive list of languages/frameworks I use.</p>
+<div class="clearfix gutter-condensed">
   {% for topic in site.topics %}
-    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+<!--    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">-->
+    <div class="col-3 d-inline-block p-2">
       {% include topic-card.html %}
     </div>
   {% endfor %}

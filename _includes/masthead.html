@@ -22,6 +22,10 @@
         </a>
       </div>
     {% endif %}
+    <div class="{{ metadata_styles }}">
+      {% octicon globe height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
+      <a href="https://pm2.phs.ed.ac.uk">@PM_ResearchGroup</a>
+    </div>
     {% if user.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
@@ -37,11 +41,11 @@
       </div>
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon briefcase height:40 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
-        <p>Research Associate at the University of Edinburgh, Edinburgh, UK</p>
+        <a href="https://www.ed.ac.uk/profile/mr-andrii-iakovliev">Research Associate at the University of Edinburgh, Edinburgh, UK</a>
       </div>
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon mortar-board height:60 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
-        <p>PhD in Applied/Computational Mechanics at the University of Southampton, Southampton, UK</p>
+        <a href="https://www.ecs.soton.ac.uk/people/ai1v14">PhD in Applied/Computational Mechanics at the University of Southampton, Southampton, UK</a>
       </div>
     {% endif %}
     {% if site.social_media %}
