@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f68da92-1b23-479e-83b0-f2ca985f6d95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_includes/other-card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/other.html" afterDir="false" />
+    <list default="true" id="0f68da92-1b23-479e-83b0-f2ca985f6d95" name="Default Changelist" comment="Compile personal webpage locally.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/social_media.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/social_media.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/interests.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/interests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/masthead.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/masthead.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/topic-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/topic-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="AtomConfig" />
@@ -49,7 +41,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601394873674</updated>
       <workItem from="1601394874972" duration="6862000" />
-      <workItem from="1601463335015" duration="6401000" />
+      <workItem from="1601463335015" duration="6585000" />
+      <workItem from="1606157255876" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="Compile personal webpage locally.">
       <created>1601397269065</created>
@@ -64,25 +57,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Compile personal webpage locally." />
     <option name="LAST_COMMIT_MESSAGE" value="Compile personal webpage locally." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="214" y="23" key="CommitChangelistDialog2" timestamp="1601397268776">
-      <screen x="0" y="23" width="1280" height="712" />
-    </state>
-    <state x="214" y="23" key="CommitChangelistDialog2/0.23.1280.712@0.23.1280.712" timestamp="1601397268776" />
-    <state x="275" y="23" width="999" height="704" key="SettingsEditor" timestamp="1601555204606">
-      <screen x="0" y="23" width="1280" height="704" />
-    </state>
-    <state x="275" y="23" width="999" height="704" key="SettingsEditor/0.23.1280.704@0.23.1280.704" timestamp="1601555204606" />
-    <state x="340" y="134" width="600" height="490" key="find.popup" timestamp="1601398274013">
-      <screen x="0" y="23" width="1280" height="712" />
-    </state>
-    <state x="340" y="134" width="600" height="490" key="find.popup/0.23.1280.712@0.23.1280.712" timestamp="1601398274013" />
   </component>
 </project>
