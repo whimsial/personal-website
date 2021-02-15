@@ -1,9 +1,52 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Projects</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Projects/code repositories that I have been working on.</p>
-<h3 class="{% if site.style == 'dark' %}class="text-white"{% endif %}">Research projects</h3>
+<h2 {% if site.style == 'dark' %} class="text-white"{% endif %}>Projects</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Research projects/code
+  repositories that I have been working on.</p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-  <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-    text
+  <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
+    <h1 class="f4 lh-condensed mb-1"><a href="https://genoscores.cphs.mvm.ed.ac.uk">GENOSCORES project</a></h1>
+    I am leading the ongoing development of the GENOSCORES project --
+    a web platform and software tools for the calculation of genotypic predictors (scores) of binary and quantitative
+    phenotypes. I am working on deploying GENOSCORES as a publicly available research tool.
+    <hr>
+    <div class="d-flex f6">
+      <span class="repo-language-color ml-0 mr-1" style="background-color: #198CE7"></span>
+      <span class="mr-3" itemprop="programmingLanguage">R</span>
+      <span class="repo-language-color ml-0 mr-1" style="background-color: #4F5D95"></span>
+      <span class="mr-3" itemprop="programmingLanguage">PHP</span>
+      <span class="repo-language-color ml-0 mr-1" style="background-color:#e34c26"></span>
+      <span class="mr-3" itemprop="programmingLanguage">HTML</span>
+    </div>
+    </div>
+  </div>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
+    <h1 class="f4 lh-condensed mb-1"><a href="https://spindlefea.soton.ac.uk">Spindle FEA</a></h1>
+    I developed an application to perform parametric stability modelling of the mitotic spindle structures
+    in various cell types during mitosis. This work has been carried out as part of my PhD.
+    <hr>
+    <div class="d-flex f6">
+      <span class="repo-language-color ml-0 mr-1" style="background-color:#3572A5"></span>
+      <span class="mr-3" itemprop="programmingLanguage">Python</span>
+      {% octicon repo height:16 class:"mr-2 v-align-middle" %}
+      <a href="https://git.soton.ac.uk/ai1v14/SpindleFEA">SpindleFEA repo</a>
+    </div>
+  </div>
+</div>
+
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
+    <h1 class="f4 lh-condensed mb-1"><a href="https://3dprint.soton.ac.uk">3D printing service</a></h1>
+    I co-initiated, managed and developed the web platform for the 3D printing service
+    at the University of Southampton.
+    <hr>
+    <div class="d-flex f6">
+      <span class="repo-language-color ml-0 mr-1" style="background-color: #4F5D95"></span>
+      <span class="mr-3" itemprop="programmingLanguage">PHP</span>
+      <span class="repo-language-color ml-0 mr-1" style="background-color:#e34c26"></span>
+      <span class="mr-3" itemprop="programmingLanguage">HTML</span>
+      <span class="repo-language-color ml-0 mr-1" style="background-color: #f1e05a"></span>
+      <span class="mr-3" itemprop="programmingLanguage">JavaScript</span>
+    </div>
   </div>
 </div>
 
