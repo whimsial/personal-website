@@ -1,12 +1,58 @@
 <h2 {% if site.style == 'dark' %} class="text-white"{% endif %}>Projects</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Research projects/code
-  repositories that I have been working on.</p>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">My research projects/code
+  repositories.</p>
+  <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+    <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
+      <h1 class="f4 lh-condensed mb-1">Research project: Association of responce to treatment of rheumatoid arthritis with Somalogic proteins.</h1>
+      <h2 class="f4 lh-condensed mb-1 text-gray">Context</h2>
+      <p class="text-gray">
+          Rheumatoid arthritis (RA) is an autoimmune disease treated with drugs 
+          that are commonly split into two classes:
+          conventional synthetic disease-modifying anti-rheumatic drugs (csDMARDs) 
+          and tumour necrosis factor (TNF) α inhibitors (anti-TNFs).
+          Patients react differently to these drugs with a proportion of patients 
+          exhibiting resistance to either csDMARDs, anti-TNFs or both.
+      </p>
+      <h2 class="f4 lh-condensed mb-1 text-gray">Aim</h2>
+      <p class="text-gray">
+          I explore the effect of genetic loci of various 
+          proteins in human plasma (pQTLs) on the response to 
+          csDMARDs and anti-TNFs. Since proteins are common
+          drug targets, such knowledge may improve the existing treatment of RA
+          or lead to the development of new treatments.
+      </p>
+      <h2 class="f4 lh-condensed mb-1 text-gray">Method</h2>
+      <p class="text-gray">
+          I connect the genotypes and measurements of the response to treatment in 
+          cohorts of patients with RA collected by <a href="http://www.matura.whri.qmul.ac.uk">MATURA</a>
+          consortium with the largest to-date atlas of human plasma pQTLs 
+          (<a href="https://pubmed.ncbi.nlm.nih.gov/29875488">Sun et al., 2018</a>).
+      </p>
+      <p class="text-gray">
+          I use the <a href="https://genoscores.cphs.mvm.ed.ac.uk/">GENOSCORES</a> 
+          platform to aggregate and weight the genotypes of patients with RA by 
+          the reported effects of pQTLs to obtain genotypic scores. 
+          I then study the associations of these
+          genotypic scores with the response to treatment. 
+          These associations are informative of any pQTLs affecting the efficiency
+          of either csDMARDs or anti-TNFs.
+      </p>
+      </div>
+    </div>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
     <h1 class="f4 lh-condensed mb-1"><a href="https://genoscores.cphs.mvm.ed.ac.uk">GENOSCORES project</a></h1>
-    I am leading the ongoing development of the GENOSCORES project --
-    a web platform and software tools for the calculation of genotypic predictors (scores) of binary and quantitative
-    phenotypes. I am working on deploying GENOSCORES as a publicly available research tool.
+    <p>I develop and maintain the GENOSCORES platform.</p>
+    <p>
+        GENOSCORES is a curated database of published genome-wide association studies
+        (MySQL), a web platform (PHP, Laravel)
+        and an R package along with a suite of helper tools (various languages) 
+        linked together with an API. 
+    </p>
+    <p>
+        GENOSCORES is used with any individual-level dataset consisting of genome-wide SNP 
+        genotypes to calculate genotypic scores for the phenotypes stored in the database.  
+    </p>
     <hr>
     <div class="d-flex f6">
       <span class="repo-language-color ml-0 mr-1" style="background-color: #198CE7"></span>
@@ -18,11 +64,30 @@
     </div>
     </div>
   </div>
+  <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+    <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
+      <h1 class="f4 lh-condensed mb-1"><a href="https://genoscores.cphs.mvm.ed.ac.uk/studies">GENOSCORES server and database</a></h1>
+      <p>I maintain the GENOSCORES server, develop and maintain the GENOSCORES database.</p>
+      <p>
+          GENOSCORES is a curated database of published genome-wide association studies
+          with >1M phenotypes. I maintain both the server and the database,
+          import new GWAS and support users.
+      </p>
+      <hr>
+      <div class="d-flex f6">
+        <span class="repo-language-color ml-0 mr-1"></span>
+        <span class="mr-3" itemprop="programmingLanguage">MySQL/databases</span>
+        <span class="repo-language-color ml-0 mr-1"></span>
+        <span class="mr-3" itemprop="programmingLanguage">Linux server</span>
+      </div>
+      </div>
+    </div>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
     <h1 class="f4 lh-condensed mb-1"><a href="https://spindlefea.soton.ac.uk">Spindle FEA</a></h1>
-    I developed an application to perform parametric stability modelling of the mitotic spindle structures
-    in various cell types during mitosis. This work has been carried out as part of my PhD.
+    I developed an application to perform parametric modelling of elastic stability of the 
+    mitotic spindle in several cell types during mitosis. This work was
+    carried out as part of my PhD.
     <hr>
     <div class="d-flex f6">
       <span class="repo-language-color ml-0 mr-1" style="background-color:#3572A5"></span>
@@ -36,8 +101,12 @@
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
     <h1 class="f4 lh-condensed mb-1"><a href="https://3dprint.soton.ac.uk">3D printing service</a></h1>
-    I co-initiated, managed and developed the web platform for the 3D printing service
-    at the University of Southampton.
+    <p>
+        I co-initiated, managed and developed the web platform for the 3D printing service
+        at the University of Southampton.
+    </p>
+    <p class="text-gray">The access is restricted only to the registered users
+        since UoS moved the application behind the firewall.</p>
     <hr>
     <div class="d-flex f6">
       <span class="repo-language-color ml-0 mr-1" style="background-color: #4F5D95"></span>
