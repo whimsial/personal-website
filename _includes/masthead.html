@@ -21,7 +21,15 @@
     {% endif %}
     <div class="{{ metadata_styles }}">
       {% octicon globe height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-      <a href="https://pm2.phs.ed.ac.uk">@PM_ResearchGroup</a>
+      <a href="https://www.ed.ac.uk/centre-genomic-medicine/research-groups/colhoun-group">@Helen Colhoun group</a>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon globe height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
+      <a href="https://genoscores.cphs.mvm.ed.ac.uk/team">@Genoscores team</a>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon globe height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
+      <a href="https://github.com/molepi-precmed">@molepi-precmed group</a>
     </div>
     {% if user.email %}
       <div class="{{ metadata_styles }}">
@@ -33,16 +41,12 @@
     {% endif %}
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-        {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
-        {{ user.location }}
-      </div>
-      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon briefcase height:40 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
-        <a href="https://www.ed.ac.uk/profile/mr-andrii-iakovliev">Research Associate at the University of Edinburgh, Edinburgh, UK</a>
+        <a href="https://www.ed.ac.uk/profile/mr-andrii-iakovliev">Post-doctoral Research Associate. Centre for Population Health Sciences and Informatics at University of Edinburgh, UK</a>
       </div>
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon mortar-board height:60 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
-        <a href="https://www.ecs.soton.ac.uk/people/ai1v14">PhD in Applied/Computational Mechanics at the University of Southampton, Southampton, UK</a>
+        PhD in Computer Science at the University of Southampton, UK
       </div>
     {% endif %}
     {% if site.social_media %}

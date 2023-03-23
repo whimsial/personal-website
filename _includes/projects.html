@@ -1,91 +1,98 @@
+<h2 {% if site.style == 'dark' %} class="text-white" {% endif %}>Research interests</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">I carry out research in genetic epidemiology and precision medicine with focus on autoimmune and infectious diseases.</p>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Genetic susceptibility to a disease is typically determined by tiny effects from thousands of sites on the genome at which people differ from each other. I am developing new methods of genetic analysis, based on adding up the effects of all these variant sites on each gene to identify the core genes that cause disease.</p>
+
 <h2 {% if site.style == 'dark' %} class="text-white"{% endif %}>Projects</h2>
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">My research projects/code
   repositories.</p>
   <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
     <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
-      <h1 class="f4 lh-condensed mb-1">Research project: Association of response to treatment of rheumatoid arthritis with human plasma protein levels.</h1>
-      <h2 class="f4 lh-condensed mb-1 text-gray">Context</h2>
+      <h1 class="f4 lh-condensed mb-1">Genomewide aggregation of trans- effects (GATE) method</h1>
+      <p><a href="https://github.com/molepi-precmed/trans-qtls">GATE computational pipeline</a></p>
+      <h2 class="f4 lh-condensed mb-1 text-gray">Description</h2>
       <p class="text-gray">
-          Rheumatoid arthritis (RA) is an autoimmune disease treated with drugs 
-          that are commonly split into two classes:
-          conventional synthetic disease-modifying anti-rheumatic drugs (csDMARDs) 
-          and tumour necrosis factor (TNF) α inhibitors (anti-TNFs).
-          Patients react differently to these drugs with a proportion of patients 
-          exhibiting resistance to either csDMARDs, anti-TNFs or both.
+          The method is based on the Omnigenic model <a href="https://doi.org/10.1016%2Fj.cell.2017.05.038">(Boyle et al., 2017)</a> and can be applied to detect effector (core) genes mediating the disease.
+          The pipeline makes use of the <a href="https://genoscores.cphs.mvm.ed.ac.uk/">GENOSCORES</a> platform to compute eQTL and pQTL scores and
+          aggregate the trans QTL effects into genomewide scores which are then tested for association with the disease.
       </p>
-      <h2 class="f4 lh-condensed mb-1 text-gray">Aim</h2>
-      <p class="text-gray">
-          I explore the effect of genetic loci of various 
-          proteins in human plasma (pQTLs) on the response to 
-          csDMARDs and anti-TNFs. Since proteins are common
-          drug targets, such knowledge may improve the existing treatment of RA
-          or lead to the development of new treatments.
-      </p>
-      <h2 class="f4 lh-condensed mb-1 text-gray">Method</h2>
-      <p class="text-gray">
-          I connect the genotypes and measurements of the response to treatment in 
-          cohorts of patients with RA collected by <a href="http://www.matura.whri.qmul.ac.uk">MATURA</a>
-          consortium with the largest to-date atlas of human plasma pQTLs 
-          (<a href="https://pubmed.ncbi.nlm.nih.gov/29875488">Sun et al., 2018</a>).
-      </p>
-      <p class="text-gray">
-          I use the <a href="https://genoscores.cphs.mvm.ed.ac.uk/">GENOSCORES</a> 
-          platform to aggregate and weight the genotypes of patients with RA by 
-          the reported effects of pQTLs to obtain genotypic scores. 
-          I then study the associations of these
-          genotypic scores with the response to treatment. 
-          These associations are informative of any pQTLs affecting the efficiency
-          of either csDMARDs or anti-TNFs.
-      </p>
-      </div>
-    </div>
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-  <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
-    <h1 class="f4 lh-condensed mb-1"><a href="https://genoscores.cphs.mvm.ed.ac.uk">GENOSCORES project</a></h1>
-    <p>I develop and maintain the GENOSCORES platform.</p>
-    <p>
-        GENOSCORES is a curated database of published genome-wide association studies
-        (MySQL), a web platform (PHP, Laravel)
-        and an R package along with a suite of helper tools (various languages) 
-        linked together with an API. 
-    </p>
-    <p>
-        GENOSCORES is used with any individual-level dataset consisting of genome-wide SNP 
-        genotypes to calculate genotypic scores for the phenotypes stored in the database.  
-    </p>
-    <hr>
-    <div class="d-flex f6">
-      <span class="repo-language-color ml-0 mr-1" style="background-color: #198CE7"></span>
-      <span class="mr-3" itemprop="programmingLanguage">R</span>
-      <span class="repo-language-color ml-0 mr-1" style="background-color: #4F5D95"></span>
-      <span class="mr-3" itemprop="programmingLanguage">PHP</span>
-      <span class="repo-language-color ml-0 mr-1" style="background-color:#e34c26"></span>
-      <span class="mr-3" itemprop="programmingLanguage">HTML</span>
-    </div>
-    </div>
-  </div>
-  <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-    <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
-      <h1 class="f4 lh-condensed mb-1"><a href="https://genoscores.cphs.mvm.ed.ac.uk/studies">GENOSCORES server and database</a></h1>
-      <p>I maintain the GENOSCORES server, develop and maintain the GENOSCORES database.</p>
-      <p>
-          GENOSCORES is a curated database of published genome-wide association studies
-          with >1M phenotypes. I maintain both the server and the database,
-          import new GWAS and support users.
-      </p>
+      <p>Work is supported by <a href="https://gtr.ukri.org/projects?ref=MR%2FT032340%2F1">UK/Canada Collaboration on the genetics of long-term diabetes complications.</a></p>
       <hr>
       <div class="d-flex f6">
-        <span class="repo-language-color ml-0 mr-1"></span>
-        <span class="mr-3" itemprop="programmingLanguage">MySQL/databases</span>
-        <span class="repo-language-color ml-0 mr-1"></span>
-        <span class="mr-3" itemprop="programmingLanguage">Linux server</span>
-      </div>
+        <span class="repo-language-color ml-0 mr-1" style="background-color: #198CE7"></span>
+        <span class="mr-3" itemprop="programmingLanguage">R</span>
+        <span class="repo-language-color ml-0 mr-1" style="background-color: #3af811"></span>
+        <span class="mr-3" itemprop="programmingLanguage">Shell</span>
       </div>
     </div>
+  </div>
+
+  <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+    <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
+      <h1 class="f4 lh-condensed mb-1">GENOSCORES platform</h1>
+      <p><a href="https://genoscores.cphs.mvm.ed.ac.uk">GENOSCORES website</a></p>
+      <h2 class="f4 lh-condensed mb-1 text-gray">Description</h2>
+      <p>I am a lead developer and maintainer of the GENOSCORES code base, server and database.</p>
+      <p>GENOSCORES consists of:</p>
+      <ul class="d-flex flex-column flex-justify-between text-left p-3">
+          <li>curated database of published GWAS summary statistics</li>
+          <li>web platform</li>
+          <li>R package</li>
+          <li>suite of software tools</li>
+          <li>REST API</li>
+      </ul>
+      <p>
+          GENOSCORES is used with any individual-level dataset consisting of genome-wide SNP
+          genotypes to calculate genotypic scores for the intermediate phenotypes stored in the database.
+      </p>
+      <p>Work is supported by The Academy of Medical Sciences Springboard award</p>
+    <hr>
+      <div class="d-flex f6">
+        <span class="repo-language-color ml-0 mr-1" style="background-color: #198CE7"></span>
+        <span class="mr-3" itemprop="programmingLanguage">R</span>
+        <span class="repo-language-color ml-0 mr-1" style="background-color: #4F5D95"></span>
+        <span class="mr-3" itemprop="programmingLanguage">PHP</span>
+        <span class="repo-language-color ml-0 mr-1" style="background-color:#e34c26"></span>
+        <span class="mr-3" itemprop="programmingLanguage">HTML</span>
+        <span class="repo-language-color ml-0 mr-1" style="background-color:#3af811"></span>
+        <span class="mr-3" itemprop="programmingLanguage">Shell</span>
+        <span class="repo-language-color ml-0 mr-1" style="background-color:#b45f06"></span>
+        <span class="mr-3" itemprop="programmingLanguage">SQL</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+    <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
+      <h1 class="f4 lh-condensed mb-1">Prediction of treatment response using gene expression data for genes predictive of synovial pathotypes in people with rheumatoid arthritis.</h1>
+      <h2 class="f4 lh-condensed mb-1 text-gray">Description</h2>
+      <p>I train predictive models with hierarchical shrinkage priors using <a href="https://github.com/mcol/hsstan">hsstan</a> package to predict treatment response using panels of biomarkers predictive of synovial pathotypes in RA.</p>
+      <p>This is a collaborative project within <a href="https://gtr.ukri.org/projects?ref=MR%2FV012509%2F1">TRACT-RA</a> collaboration.</p>
+    <hr>
+      <div class="d-flex f6">
+        <span class="repo-language-color ml-0 mr-1" style="background-color: #198CE7"></span>
+        <span class="mr-3" itemprop="programmingLanguage">R</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+    <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
+      <h1 class="f4 lh-condensed mb-1">Discovery of genetically predicted biomarkers mediating systemic lupus.</h1>
+      <h2 class="f4 lh-condensed mb-1 text-gray">Description</h2>
+      <p>I use <a href="https://genoscores.cphs.mvm.ed.ac.uk/">GENOSCORES</a> and <a href="https://github.com/molepi-precmed/trans-qtls">GATE</a> method to detect effector (core) genes mediating systemic lupus.</p>
+      <p>This is a collaboration with Centro Pfizer – Universidad de Granada – Junta de Andalucía de Genómica e Investigación Oncológica <a href="https://www.genyo.es/centre/?lang=en">GENYO</a>.</p>
+    <hr>
+      <div class="d-flex f6">
+        <span class="repo-language-color ml-0 mr-1" style="background-color: #198CE7"></span>
+        <span class="mr-3" itemprop="programmingLanguage">R</span>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
     <h1 class="f4 lh-condensed mb-1"><a href="https://spindlefea.soton.ac.uk">Spindle FEA</a></h1>
-    I developed an application to perform parametric modelling of elastic stability of the 
+    I developed an application to perform parametric modelling of elastic stability of the
     mitotic spindle in several cell types during mitosis. This work was
     carried out as part of my PhD.
     <hr>
@@ -100,7 +107,7 @@
 
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   <div class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
-    <h1 class="f4 lh-condensed mb-1"><a href="https://3dprint.soton.ac.uk">3D printing service</a></h1>
+    <h1 class="f4 lh-condensed mb-1">3D printing service</h1>
     <p>
         I co-initiated, managed and developed the web platform for the 3D printing service
         at the University of Southampton.
